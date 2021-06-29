@@ -27,7 +27,7 @@ function setup() {
 	fill(255);
 	textSize(20);
 	text('Press s to save image',0,height-60 );
-	text('Be Focused ' + nf(min, 2) + ':' + nf(counter, 2), 0, height - 20);
+	text('Be Focused ' + nf(min, 2) + ':' + nf(counter, 2), 10, height - 20);
 
 	function timeIt() {
 		if (counter == 59) {
@@ -39,7 +39,7 @@ function setup() {
 		rect(100, height - 40, 200, 40);
 		fill(255);
 		textSize(20);
-		text('Be Focused ' + nf(min, 2) + ':' + nf(counter, 2), 0, height - 20);
+		text('Be Focused ' + nf(min, 2) + ':' + nf(counter, 2), 10, height - 20);
 	}
 
 	setInterval(timeIt, 1000);
