@@ -34,7 +34,7 @@ class Ball {
 	}
 
 	isDead() {
-		if (this.pos.x < -height / 4 || this.pos.x > height / 4 || this.pos.y < -height / 4 || this.pos.y > height / 4) {
+		if (this.pos.x < -200|| this.pos.x > 200 || this.pos.y < -200 || this.pos.y >200) {
 			return true;
 		} else {
 			return false;
