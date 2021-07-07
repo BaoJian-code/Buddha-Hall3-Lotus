@@ -85,14 +85,7 @@ function draw() {
 
 		}
 
-		// //draw repeat stuff
-		// stroke(255, 0, 255);
-		// strokeWeight(3);
-		// line(mx, my, pmx, pmy);
-		// push();
-		// scale(-1, 1);
-		// line(mx, my, pmx, pmy);
-		// pop();
+	
 		pop();
 	}
 	pop();
@@ -115,21 +108,7 @@ function draw() {
 	}
 }
 
-// function mousePressed() {
-// 	background(0);
-// 	image(img, width / 2, height / 2, 500, 800);
 
-// 	for (i = 0; i <= 30; i++) {
-// 		noStroke();
-// 		fill(255, 255, 255, 255 - i * 10);
-// 		ellipse(width / 2, height / 2 - 200, i);
-// 	}
-
-// 	for (i = 0; i <= num; i++) {
-// 		let b = new Ball(random(0, 4.9));
-// 		balls.push(b);
-// 	}
-// }
 
 
 function keyTyped() {
